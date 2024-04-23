@@ -1,0 +1,11 @@
+insert into product
+	value('P01','Samsung Galaxy S20',3299,'Smartphone'),
+		('P02','ASUS Notebook',4599,'PC');
+
+    insert into customer
+	value('C01','ALI',71321009),
+    ('C02','ASMA',77345823);
+
+    insert into Orders
+    value('C01','P02', NULL , 2 , 9198),
+('C02','P01', 28/05/2020 , 1 , 3299),
